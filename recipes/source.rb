@@ -43,10 +43,6 @@ else
   end
 end
 
-ohai "reload" do
-  action :reload
-end
-
 gem_package "passenger" do
   version node['passenger']['version']
 end
